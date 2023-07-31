@@ -6,3 +6,8 @@ from kivy_first_app.classes.K_My_Class3 import run_k_my_class3
 from kivy_first_app.classes.K_My_Class4 import run_k_my_class4
 from kivy_first_app.classes.Button_Self import run_button_self
 from kivy_first_app.classes.Button_Root import run_button_root
+from kivy_first_app.classes.Button_App import run_button_app
+from kivy_first_app.classes.Button_Args import run_button_args
+from kivy_first_app.classes.Button_Id import run_button_id
+from kivy_first_app.classes.Button_Ids import run_button_ids
+from kivy_first_app.classes.Simpl_Calc import run_simpl_calc

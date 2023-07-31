@@ -24,6 +24,21 @@ def button_self():
 def button_root():
     kivy_first_app.run_button_root()
 
+def button_app():
+    kivy_first_app.run_button_app()
+
+def button_args():
+    kivy_first_app.run_button_args()
+
+def button_id():
+    kivy_first_app.run_button_id()
+
+def button_ids():
+    kivy_first_app.run_button_ids()
+
+def simple_calc():
+    kivy_first_app.run_simpl_calc()
+
 if __name__ == '__main__':
     # mainapp()
     # mainappmd()
@@ -32,4 +47,9 @@ if __name__ == '__main__':
     # k_my_class3()
     # k_my_class4()
     # button_self()
-    button_root()
+    # button_root()
+    # button_app()
+    # button_args()
+    # button_id()
+    # button_ids()
+    simple_calc()
