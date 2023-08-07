@@ -1,3 +1,4 @@
 .kivy
 .vscode
 __pycache__
+*.mp4
