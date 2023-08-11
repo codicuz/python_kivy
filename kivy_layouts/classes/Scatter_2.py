@@ -5,7 +5,7 @@ KV = '''
 RelativeLayout:
 	Scatter:
 		Image:
-			source: '../../resources/devops.png'
+			source: '../../resources/images/devops.png'
 '''
 
 class MainApp(App):

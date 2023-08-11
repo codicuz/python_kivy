@@ -34,5 +34,4 @@ class MainApp(App):
     def build(self):
             return Builder.load_string(KV)
 
-def run_simpl_calc():
-      MainApp().run()
+MainApp().run()

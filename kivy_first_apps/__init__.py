@@ -1,6 +1,0 @@
-from kivy_first_apps.classes.MainApp import runMainApp
-from kivy_first_apps.classes.MainAppMD import runMainAppMD
-from kivy_first_apps.classes.K_My_Class1 import run_k_my_class1
-from kivy_first_apps.classes.K_My_Class2 import run_k_my_class2
-from kivy_first_apps.classes.K_My_Class3 import run_k_my_class3
-from kivy_first_apps.classes.K_My_Class4 import run_k_my_class4

@@ -7,7 +7,7 @@ Widget:
 		Color:
 			rgba: 1, 0, 0, 1
 		Rectangle:
-			source: '../resources/devops.png'
+			source: '../../resources/images/devops.png'
 			pos: self. pos
 			size: self.size
 '''

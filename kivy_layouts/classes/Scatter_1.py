@@ -13,7 +13,7 @@ class MainApp(App):
 	def build(self):
 		rl = RelativeLayout()
 		sct = Scatter()
-		img = Image(source='../../resources/devops.png')
+		img = Image(source='../../resources/images/devops.png')
 		sct.add_widget(img)
 		rl.add_widget(sct)
 		return rl

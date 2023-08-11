@@ -3,7 +3,7 @@ from kivy.lang import Builder
 
 KV = '''
 Video:
-	source: '../resources/video.mp4'
+	source: '../../resources/images/video.mp4'
 	play: True
 '''
 

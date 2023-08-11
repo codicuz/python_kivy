@@ -6,7 +6,7 @@ class MainApp(App):
     def build(self):
         stv = StencilView() # контейнер – трафарет
         sc = Scatter() # контейнер – конвертор
-        sc.add_widget(Image(source='../../resources/background.jpg'))
+        sc.add_widget(Image(source='../../resources/images/background.jpg'))
         stv.add_widget(sc) # положить конвертор в трафарет
         return stv
 

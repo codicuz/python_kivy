@@ -3,7 +3,7 @@ from kivy.lang import Builder
 
 KV = '''
 Image:
-	source: '../resources/devops.png'
+	source: '../../resources/images/devops.png'
 '''
 
 class MainApp(App):

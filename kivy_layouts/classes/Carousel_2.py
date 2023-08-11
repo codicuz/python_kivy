@@ -12,16 +12,16 @@ Carousel:
             size: self.size
     BoxLayout:
         Image:
-            source: '../../resources/dog.png'
+            source: '../../resources/images/dog.png'
     BoxLayout:
         Image:
-            source: '../../resources/cat.png'
+            source: '../../resources/images/cat.png'
     BoxLayout:
         Image:
-            source: '../../resources/bird.png'
+            source: '../../resources/images/bird.png'
     BoxLayout:
         Image:
-            source: '../../resources/devops.png'
+            source: '../../resources/images/devops.png'
 '''
 
 class MainApp(App):

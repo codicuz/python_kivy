@@ -14,15 +14,15 @@ KV = '''
 RelativeLayout:
 	canvas:
 		Rectangle:
-			source: '../../resources/background.jpg'
+			source: '../../resources/images/background.jpg'
 			size: self.size
 			pos: self.pos
 	Picture:
-		source: '../../resources/dog.png'
+		source: '../../resources/images/dog.png'
 	Picture:
-		source: '../../resources/cat.png'
+		source: '../../resources/images/cat.png'
 	Picture:
-		source: '../../resources/bird.png'
+		source: '../../resources/images/bird.png'
 '''
 
 class MyApp(App):

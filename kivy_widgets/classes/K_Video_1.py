@@ -8,7 +8,7 @@ from kivy.uix.video import Video
 
 class MainApp(App):
 	def build (self):
-		video = Video(source='../resources/video.mp4', play=True)
+		video = Video(source='../../resources/images/video.mp4', play=True)
 		return video
 
 MainApp().run()

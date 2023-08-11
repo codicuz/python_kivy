@@ -19,5 +19,4 @@ class MainApp(App):
         print("Вы нажали на кнопку!")
         print(instance)
 
-def run_button_app():
-      MainApp().run()
+MainApp().run()

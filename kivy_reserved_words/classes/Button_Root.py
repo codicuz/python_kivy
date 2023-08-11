@@ -12,5 +12,4 @@ class MainApp(App):
     def build(self):
             return Builder.load_string(KV)
 
-def run_button_root():
-      MainApp().run()
+MainApp().run()
