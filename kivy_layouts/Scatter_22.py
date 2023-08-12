@@ -13,11 +13,11 @@ KV = '''
 	
 FloatLayout:
 	Picture:
-		source: '../../resources/images/cat.png'
+		source: '../resources/images/cat.png'
 	Picture:
-		source: '../../resources/images/dog.png'
+		source: '../resources/images/dog.png'
 	Picture:
-		source: '../../resources/images/bird.png'
+		source: '../resources/images/bird.png'
 '''
 
 class MyApp(App):

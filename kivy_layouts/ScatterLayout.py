@@ -11,12 +11,12 @@ KV = '''
 RelativeLayout:
 	canvas:
 		Rectangle:
-			source: '../../resources/images/background.jpg'
+			source: '../resources/images/background.jpg'
 			size: self.size
 			pos: self.pos
 	ScatterLayout:
 		Image:
-			source: '../../resources/images/devops.png'
+			source: '../resources/images/devops.png'
 '''
 
 class MainApp(App):

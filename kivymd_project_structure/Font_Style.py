@@ -16,11 +16,11 @@ Screen:
         MDLabel:
             text: 'Текст 64'
             font_size: 64
-            font_name: '../../resources/fonts/1-cataneo-bt.ttf'
+            font_name: '../resources/fonts/1-cataneo-bt.ttf'
         MDLabel:
             text: 'Текст 32'
             font_size: 32
-            font_name: '../../resources/fonts/1-cataneo-bt.ttf'
+            font_name: '../resources/fonts/1-cataneo-bt.ttf'
 '''
 
 class MainApp(MDApp):

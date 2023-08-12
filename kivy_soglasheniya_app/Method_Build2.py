@@ -1,7 +1,7 @@
 from kivy.app import App
 from kivy.lang import Builder
 
-kv_file = Builder. load_file ('../KV_file/main_screen.kv')
+kv_file = Builder. load_file ('KV_file/main_screen.kv')
 
 class Basic_Class (App):
 	def build (self):

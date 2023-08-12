@@ -2,14 +2,13 @@ from kivy.app import App
 from kivy.lang import Builder
 
 KV = '''
-RelativeLayout:
-	Scatter:
-		Image:
-			source: '../../resources/images/devops.png'
+Video:
+	source: '../resources/images/video.mp4'
+	play: True
 '''
 
 class MainApp(App):
-	def build (self):
+	def build(self):
 		return Builder.load_string(KV)
-
+		
 MainApp().run()

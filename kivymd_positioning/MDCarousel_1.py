@@ -7,16 +7,16 @@ MDCarousel:
     loop: True
     BoxLayout:
         Image:
-            source: '../../resources/images/dog.png'
+            source: '../resources/images/dog.png'
     BoxLayout:
         Image:
-            source: '../../resources/images/cat.png'
+            source: '../resources/images/cat.png'
     BoxLayout:
         Image:
-            source: '../../resources/images/bird.png'
+            source: '../resources/images/bird.png'
     BoxLayout:
         Image:
-            source: '../../resources/images/devops.png'
+            source: '../resources/images/devops.png'
 '''
 
 class MainApp(MDApp):

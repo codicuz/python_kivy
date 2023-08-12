@@ -4,7 +4,7 @@ KV = '''
 StencilView:
     Scatter:
         Image:
-            source: '../../resources/images/background.jpg'
+            source: '../resources/images/background.jpg'
 '''
 
 class MainApp(App):
