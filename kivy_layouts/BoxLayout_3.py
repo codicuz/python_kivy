@@ -1,7 +1,7 @@
 from kivy.app import App
 from kivy.lang import Builder
 
-# создание текстовой строки 
+# создание текстовой строки
 KV = '''
 BoxLayout:
 	orientation: 'vertical'
@@ -17,8 +17,10 @@ BoxLayout:
 		text: 'Кнопка 4'
 '''
 
+
 class MyApp(App):
-	def build(self):
-		return Builder.load_string(KV)
+    def build(self):
+        return Builder.load_string(KV)
+
 
 MyApp().run()

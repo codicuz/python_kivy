@@ -23,8 +23,10 @@ Screen:
             font_name: '../resources/fonts/1-cataneo-bt.ttf'
 '''
 
+
 class MainApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
+
 
 MainApp().run()

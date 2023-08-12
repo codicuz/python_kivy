@@ -11,12 +11,14 @@ BoxLayout:
         on_focus: self.insert_text("Фокус" if args[1] else "Нет")
 """
 
+
 class MainApp(App):
     def build(self):
-            return Builder.load_string(KV)
+        return Builder.load_string(KV)
 
     def press_button(self, instance):
         print("Вы нажали на кнопку!")
         print(instance)
+
 
 MainApp().run()

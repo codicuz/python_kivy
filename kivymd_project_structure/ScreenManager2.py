@@ -68,20 +68,26 @@ sm:
                 root.manager.transition.direction = 'right'
 '''
 
+
 class Main_Screen(Screen):
     pass
+
 
 class Screen_2(Screen):
     pass
 
+
 class Screen_3(Screen):
     pass
+
 
 class sm(ScreenManager):
     pass
 
+
 class MainApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
+
 
 MainApp().run()

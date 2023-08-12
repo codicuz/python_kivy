@@ -26,8 +26,10 @@ GridLayout:
 		background_color: 102/255, 255/255, 255/255, 1
 '''
 
+
 class MainApp(App):
-	def build(self):
-		return Builder.load_string(KV)
+    def build(self):
+        return Builder.load_string(KV)
+
 
 MainApp().run()

@@ -12,12 +12,15 @@ box:
         id: itog
 """
 
+
 class box(BoxLayout):
-      def result(self, entry_text):
-            self.ids["itog"].text = entry_text
+    def result(self, entry_text):
+        self.ids["itog"].text = entry_text
+
 
 class MainApp(App):
     def build(self):
-            return Builder.load_string(KV)
+        return Builder.load_string(KV)
+
 
 MainApp().run()

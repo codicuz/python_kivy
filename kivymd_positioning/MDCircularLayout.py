@@ -11,13 +11,16 @@ Screen:
         row_spacing: min(self.size) *0.1
 '''
 
+
 class Main(MDApp):
     def build(self):
         return Builder.load_string(kv)
-    
+
     def on_start(self):
         # for x in range(1, 13):
         for x in range(1, 49):
-            self.root.ids.container.add_widget(Label(text=f'{x}', color=[0, 0, 0, 1]))
+            self.root.ids.container.add_widget(
+                Label(text=f'{x}', color=[0, 0, 0, 1]))
+
 
 Main().run()

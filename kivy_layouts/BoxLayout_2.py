@@ -1,7 +1,7 @@
 from kivy.app import App
 from kivy.lang import Builder
 
-# создание текстовой строки 
+# создание текстовой строки
 KV = '''
 BoxLayout:
 	orientation: 'vertical'
@@ -18,8 +18,10 @@ BoxLayout:
 		#size_hint: (.5, None)
 '''
 
+
 class MyApp(App):
-	def build(self):
-		return Builder.load_string(KV)
+    def build(self):
+        return Builder.load_string(KV)
+
 
 MyApp().run()

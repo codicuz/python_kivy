@@ -12,6 +12,7 @@ from kivy.app import App
 from kivy.uix.carousel import Carousel
 from kivy.uix.image import Image
 
+
 class MainApp(App):
     def build(self):
         # создать объект
@@ -25,5 +26,6 @@ class MainApp(App):
         img = Image(source='../resources/images/devops.png')
         carousel.add_widget(img)
         return carousel
+
 
 MainApp().run()

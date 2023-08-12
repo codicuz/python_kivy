@@ -16,9 +16,11 @@ MDScreen:
         md_bg_color: app.theme_cls.primary_dark
 '''
 
+
 class MainApp(MDApp):
     def build(self):
         self.theme_cls.primary_palette = 'Green'
         return Builder.load_string(KV)
+
 
 MainApp().run()

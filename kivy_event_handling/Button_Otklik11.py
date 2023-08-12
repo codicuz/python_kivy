@@ -11,11 +11,13 @@ Button:
 	on_press: app.press_button(root)
 '''
 
+
 class MainApp(App):
-	def build(self):
-		return Builder.load_string(KV)
-	
-	def press_button(self, instance):
-		print ('Вы нажали на кнопку!')
+    def build(self):
+        return Builder.load_string(KV)
+
+    def press_button(self, instance):
+        print('Вы нажали на кнопку!')
+
 
 MainApp().run()

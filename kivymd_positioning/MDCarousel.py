@@ -2,6 +2,7 @@ from kivymd.app import MDApp
 from kivy.uix.image import Image
 from kivymd.uix.carousel import MDCarousel
 
+
 class MainApp(MDApp):
     def build(self):
         # создать объект
@@ -15,5 +16,6 @@ class MainApp(MDApp):
         img = Image(source='../resources/images/devops.png')
         carousel.add_widget(img)
         return carousel
+
 
 MainApp().run()

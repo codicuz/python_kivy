@@ -22,9 +22,11 @@ GridLayout:
 		text: 'Это кнопка 4'
 		size_hint: .5, .3
 '''
- 
+
+
 class MyApp(App):
- 	def build(self):
- 		return Builder.load_string(KV)
+    def build(self):
+        return Builder.load_string(KV)
+
 
 MyApp().run()

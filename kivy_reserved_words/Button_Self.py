@@ -7,8 +7,10 @@ BoxLayout:
         text: "Состояние кнопки - %s"% self.state
 """
 
+
 class MainApp(App):
     def build(self):
-            return Builder.load_string(KV)
+        return Builder.load_string(KV)
+
 
 MainApp().run()

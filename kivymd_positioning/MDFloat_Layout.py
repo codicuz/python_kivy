@@ -12,8 +12,10 @@ MDFloatLayout:
         pos_hint: {'center_x':.8, 'center_y':.9}
 '''
 
+
 class MyApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
+
 
 MyApp().run()

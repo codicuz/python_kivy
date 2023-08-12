@@ -10,8 +10,10 @@ FloatLayout:
 		pos: 30, 30
 '''
 
+
 class MyApp(App):
-	def build(self):
-		return Builder.load_string(KV)
+    def build(self):
+        return Builder.load_string(KV)
+
 
 MyApp().run()

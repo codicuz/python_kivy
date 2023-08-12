@@ -8,10 +8,14 @@ MyBox:
         text: "Кнопка 2"
 """
 
-class MyBox(BoxLayout):...
+
+class MyBox(BoxLayout):
+    ...
+
 
 class MainApp(App):
     def build(self):
         return Builder.load_string(KV)
+
 
 MainApp().run()

@@ -5,8 +5,10 @@ KV = '''TextInput:
 	font_size: 30
 '''
 
+
 class MainApp(App):
-	def build (self):
-		return Builder.load_string(KV)
-		
+    def build(self):
+        return Builder.load_string(KV)
+
+
 MainApp().run()

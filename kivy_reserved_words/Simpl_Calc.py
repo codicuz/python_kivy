@@ -21,17 +21,20 @@ box:
         font_size: 64
 """
 
+
 class box(BoxLayout):
-      def result(self, entry_text):
-            if entry_text:
-                try:
-                    result = str(eval(entry_text))
-                    self.ids["itog"].text = result
-                except Exception:
-                    self.ids["itog"].text = "Ошибка"
+    def result(self, entry_text):
+        if entry_text:
+            try:
+                result = str(eval(entry_text))
+                self.ids["itog"].text = result
+            except Exception:
+                self.ids["itog"].text = "Ошибка"
+
 
 class MainApp(App):
     def build(self):
-            return Builder.load_string(KV)
+        return Builder.load_string(KV)
+
 
 MainApp().run()

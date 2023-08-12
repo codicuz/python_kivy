@@ -11,12 +11,14 @@ BoxLayout:
         text: app.name
 """
 
+
 class MainApp(App):
     def build(self):
-            return Builder.load_string(KV)
+        return Builder.load_string(KV)
 
     def press_button(self, instance):
         print("Вы нажали на кнопку!")
         print(instance)
+
 
 MainApp().run()

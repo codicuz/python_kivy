@@ -65,25 +65,36 @@ WindowManager:
 '''
 
 # главный экран приложения
+
+
 class MainWindow(Screen):
     pass
 
 # второй экран приложения
+
+
 class Screen_2(Screen):
     pass
 
 # третий экран приложения
+
+
 class Screen_3(Screen):
     pass
 
 # менеджер экранов
+
+
 class WindowManager(ScreenManager):
     pass
 
+
 kv = Builder.load_string(KV)
+
 
 class MyMainApp(App):
     def build(self):
         return kv
+
 
 MyMainApp().run()

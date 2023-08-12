@@ -11,8 +11,10 @@ MDScreen:
             text: 'Это кнопка'
 '''
 
+
 class MyApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
+
 
 MyApp().run()

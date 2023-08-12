@@ -19,8 +19,10 @@ MDGridLayout:
         text: 'Это кнопка 3'
 '''
 
+
 class MyApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
+
 
 MyApp().run()

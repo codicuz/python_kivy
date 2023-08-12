@@ -19,8 +19,10 @@ MDCarousel:
             source: '../resources/images/devops.png'
 '''
 
+
 class MainApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
+
 
 MainApp().run()

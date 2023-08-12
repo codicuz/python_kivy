@@ -17,8 +17,11 @@ MDStackLayout:
     MDRaisedButton:
         text: 'КНОПКА 4'
 '''
+
+
 class MainApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
+
 
 MainApp().run()

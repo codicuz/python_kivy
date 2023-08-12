@@ -22,8 +22,10 @@ FloatLayout:
 		pos_hint: {'center_x': .8, 'center_y': .8}
 '''
 
+
 class MyApp(App):
-	def build(self):
-		return Builder.load_string(KV)
+    def build(self):
+        return Builder.load_string(KV)
+
 
 MyApp().run()

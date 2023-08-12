@@ -14,8 +14,10 @@ MDScreen:
         pos_hint: {'x': 0.1, 'y': 0.8}
 '''
 
+
 class MainApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
+
 
 MainApp().run()

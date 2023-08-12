@@ -18,8 +18,10 @@ BoxLayout:
         on_touch_down: self.text = "Метка"
 """
 
+
 class MainApp(App):
     def build(self):
-            return Builder.load_string(KV)
+        return Builder.load_string(KV)
+
 
 MainApp().run()

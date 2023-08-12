@@ -12,11 +12,13 @@ BoxLayout:
         text: but.state
 '''
 
+
 class MainApp(MDApp):
     def build(self):
         return Builder.load_string(KV)
 
     def status(self, stt):
         print('Состояние кнопки – ' + stt)
+
 
 MainApp().run()

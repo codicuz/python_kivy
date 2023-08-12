@@ -25,7 +25,10 @@ BoxLayout:
 # Window.size = (360, 600)
 # Window.size = (600, 400)
 
+
 class MainApp(App):
     def build(self):
         return Builder.load_string(KV)
+
+
 MainApp().run()
